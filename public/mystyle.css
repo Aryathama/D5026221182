@@ -1,0 +1,24 @@
+h3 {
+    color:slateblue;
+    text-align:center;
+    text-decoration:underline;
+}
+
+p {
+    color:rgb(141,158,198);
+    text-align:justify;
+}
+
+body {
+    background:floralwhite;
+}
+
+.ratakanan {
+    text-align:right;
+    font-weight:bolder;
+    color:brown;
+}
+
+.kotak {
+    border-style:solid;
+}

@@ -1,0 +1,54 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(rgb(225,52,240),rgb(93, 23, 103));
+    color:white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 27px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 70%;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button:link, .button:visited {
+    margin-top: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 54%;
+    transition: 0.3s;
+}
+
+.button:hover, .button:active {
+    background-color: white;
+    color: rgb(173,42,189);
+}
+
+.aryathama {
+    margin-top: 62px;
+}
+
+.raditya {
+    border-radius: 50%;
+    width: 95px;
+}
+
+.arya_linktree {
+    margin: center;
+    margin-top: 20px;
+    width: 130px;
+    filter: invert(1);
+}
