@@ -12,7 +12,7 @@
 
 	<p>Ini Adalah Halaman Kontak</p>
 
-	<table border="1" class="table table-hover">
+	<table class="table table-hover">
 		<tr>
 			<td>Email</td>
 			<td>:</td>
