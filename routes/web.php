@@ -101,3 +101,13 @@ Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index');
 Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiController@tambah');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
+
+
+Route::get('/televisi','App\Http\Controllers\TVController@index');
+Route::get('/televisi/tambah','App\Http\Controllers\TVController@tambah');
+Route::post('/televisi/store','App\Http\Controllers\TVController@store');
+Route::get('/televisi/edit/{id}','App\Http\Controllers\TVController@edit');
+Route::post('/televisi/update','App\Http\Controllers\TVController@update');
+Route::get('/televisi/hapus/{id}','App\Http\Controllers\TVController@hapus');
+Route::get('/televisi/cari','App\Http\Controllers\TVController@cari');
+Route::get('/televisi/view/{id}','App\Http\Controllers\TVController@view');
