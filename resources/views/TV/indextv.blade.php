@@ -42,5 +42,6 @@
 		</tr>
 		@endforeach
 	</table>
+    {{ $televisi->links() }}
 
 @endsection
