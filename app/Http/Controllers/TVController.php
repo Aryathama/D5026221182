@@ -10,7 +10,7 @@ class TVController extends Controller
     public function index()
     {
     	// mengambil data dari table pegawai
-    	$televisi = DB::table('televisi')->get();
+    	$televisi = DB::table('televisi')->paginate(10);
     	return view('TV/indextv',['televisi' => $televisi]);
     }
 
