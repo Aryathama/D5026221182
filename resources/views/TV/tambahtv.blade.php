@@ -20,7 +20,7 @@
         <div class = "form-group row">
             <label for = "stock" class = "col-sm-2 control-label">Stok</label>
             <div class = "col-sm-8">
-               <input required="required" name="stock" type = "text" class = "form-control" id = "stock" placeholder = "Masukkan stok televisi">
+               <input required="required" name="stock" type = "number" class = "form-control" id = "stock" placeholder = "Masukkan stok televisi">
             </div>
         </div>
         {{-- <div class = "form-group row">
