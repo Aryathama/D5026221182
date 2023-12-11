@@ -113,4 +113,4 @@ Route::get('/televisi/cari','App\Http\Controllers\TVController@cari');
 Route::get('/televisi/view/{id}','App\Http\Controllers\TVController@view');
 
 Route::get('/kategori','App\Http\Controllers\KategoriController@index');
-Route::post('/kategori/cari/{nama}','App\Http\Controllers\KategoriController@cari');
+Route::get('/hasilKategori','App\Http\Controllers\KategoriController@cari');
