@@ -111,3 +111,6 @@ Route::post('/televisi/update','App\Http\Controllers\TVController@update');
 Route::get('/televisi/hapus/{id}','App\Http\Controllers\TVController@hapus');
 Route::get('/televisi/cari','App\Http\Controllers\TVController@cari');
 Route::get('/televisi/view/{id}','App\Http\Controllers\TVController@view');
+
+Route::get('/kategori','App\Http\Controllers\KategoriController@index');
+Route::post('/kategori/cari/{nama}','App\Http\Controllers\KategoriController@cari');
